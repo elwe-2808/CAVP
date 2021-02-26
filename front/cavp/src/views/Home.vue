@@ -1,18 +1,23 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <step class="step" :current_page=1 :step_number=3></step>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import step from "../components/step-indicator"
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    step
   }
 }
 </script>
+
+<style lang="scss">
+  .step{
+    height: 10em;
+  }
+</style>
