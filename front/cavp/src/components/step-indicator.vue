@@ -9,16 +9,16 @@
         name: "step-indicator",
         data(){
             return {
-                default_color: "blue-9",
-                current_color: "blue-5"
+                default_color: "yellow-9",
+                current_color: "yellow-5"
             }
         },
         methods: {
             check_color(button_number){
                 if(this.current_page === button_number)
-                    return "blue-5"
+                    return "yellow-9"
                 else
-                    return "blue-9"
+                    return "yellow-5"
             },
         },
         props: {
