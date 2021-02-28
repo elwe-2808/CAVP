@@ -24,6 +24,9 @@
         props: {
             current_page: Number,
             step_number: Number
+        },
+        watch: {
+
         }
     }
 </script>

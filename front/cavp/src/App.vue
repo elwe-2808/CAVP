@@ -5,6 +5,7 @@
 </template>
 
 <style>
+  @import "styles/normalize.css";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
