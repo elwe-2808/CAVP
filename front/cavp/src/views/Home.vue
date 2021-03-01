@@ -70,7 +70,20 @@ export default {
     h1{
       display: inline;
       font-size: 40px;
+
+      @media screen and (max-width: 576px){
+        font-size: 30px;
+        line-height: 40px;
+      }
     }
+
+    @media screen and (max-width: 576px){
+      width: 100%;
+      height: 80vh;
+      border-radius: 0;
+      margin-bottom: 15px;
+    }
+
   }
   .navigation_buttons{
     margin-right: auto;
@@ -84,5 +97,15 @@ export default {
         position: fixed;
         right: 13%;
       }
+
+    @media screen and (max-width: 576px){
+      width: 100%;
+      .back_button{
+        left: 0;
+      }
+      .next_button{
+        right: 0;
+      }
+    }
   }
 </style>

@@ -4,8 +4,14 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
   @import "styles/normalize.css";
+
+  $phone: 576px;
+  $tablets: 768px;
+  $desktop: 992px;
+  $large-desktop: 1200px;
+  $larger-desktop: 1400px;
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -16,11 +16,19 @@
 </script>
 
 <style scoped lang="scss">
-    .uploader{
-        margin-top: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        width: 50%;
-        height: 60%;
+    .home{
+        .uploader{
+            margin-top: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            width: 50%;
+            height: 60%;
+        }
+
+
     }
+
+
+
+
 </style>
